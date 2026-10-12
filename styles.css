@@ -1,0 +1,47 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: 'trebuchet ms', 'lucida sans unicode', 'lucida grande', 'lucida sans', arial, sans-serif;
+}
+
+p {
+    font-size: 19px;
+}
+
+.big-t::first-letter{
+    initial-letter: 2.5;
+    color:rgb(255, 200, 0);
+    margin-right: 10px;
+}
+
+.site-heading{
+    border-bottom: 1px solid ;
+    padding-bottom: 15px;
+}
+
+.by-line{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.by-line-link{
+    color: rgb(53, 116, 189);
+}
+
+.blog-image{
+    width: auto;
+    max-width: 100%;
+}
+
+.caption{
+    background-color: rgb(243, 243, 243);
+    margin: 0px;
+    border-top: 6px solid rgb(255, 207, 63);
+    margin-top: -4px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.site-wrapper{
+    max-width: 700px;
+    margin:auto;
+}
